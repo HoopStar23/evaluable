@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/evaluable/evaluableestilo.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <main>
+        <div class="juego_dados">
+            <p>JUGADOR 1</p>
+            <div class="jugador1">
+                <select id="player1">
+                    <option value="1">1 dado</option>
+                    <option value="2">2 dados</option>
+                    <option value="3">3 dados</option>
+                    <option value="4">4 dados</option>
+                    <option value="5">5 dados</option>
+                    <option value="6">6 dados</option>
+                    <option value="7">7 dados</option>
+                    <option value="8">8 dados</option>
+                    <option value="9">9 dados</option>
+                    <option value="10">10 dados</option>
+                    <option value="11">11 dados</option>
+                    <option value="12">12 dados</option>
+                </select>
+            </div>
+            <div id="dados1"></div>
+            <br>
+
+            <p>JUGADOR 2</p>
+            <div class="jugador2">
+                <select id="player2">
+                    <option value="1">1 dado</option>
+                    <option value="2">2 dados</option>
+                    <option value="3">3 dados</option>
+                    <option value="4">4 dados</option>
+                    <option value="5">5 dados</option>
+                    <option value="6">6 dados</option>
+                    <option value="7">7 dados</option>
+                    <option value="8">8 dados</option>
+                    <option value="9">9 dados</option>
+                    <option value="10">10 dados</option>
+                    <option value="11">11 dados</option>
+                    <option value="12">12 dados</option>
+                </select>
+            </div>
+            <div id="dados2"></div>
+
+            <div class="lanzar">
+                <a class="btn" href="#" onclick="lanzar()">LANZAR</a>
+            </div>
+
+            <h3>JUGADOR 1 ===== JUGADOR 2</h>
+            <div id="partidas"></div>
+            <div id="resultado"></div>
+        </div>
+    </main>
+
+    <script src="../../js/evaluable/evaluablejs.js"></script>
+</body>
+</html>
